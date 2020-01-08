@@ -9,14 +9,8 @@ namespace CSharpPlayground
             for (int i = 0; i < words.Length; i++)
             {
                 words[i] = char.ToUpper(words[i][0]) + words[i].Substring(1);
-                Console.WriteLine(words[i]);
             }
             return String.Join(" ", words);
-        }
-
-        public static void Main(string[] args)
-        {
-            ToJadenCase("blah di dah");
         }
     }
 }
